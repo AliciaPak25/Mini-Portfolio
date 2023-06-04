@@ -15,21 +15,13 @@ const Footer = () => {
           &copy; 2023 Alicia Pak
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <Link
-            href="https://github.com/hqasmei"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <Link href="https://github.com/" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </Link>
-          <Link
-            href="https://twitter.com/hqasmei"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <Link href="https://twitter.com" rel="noreferrer" target="_blank">
             <AiOutlineTwitter
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
@@ -37,7 +29,7 @@ const Footer = () => {
           </Link>
 
           <Link
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="https://www.linkedin.com/"
             rel="noreferrer"
             target="_blank"
           >
@@ -46,11 +38,7 @@ const Footer = () => {
               size={30}
             />
           </Link>
-          <Link
-            href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <Link href="https://www.youtube.com" rel="noreferrer" target="_blank">
             <AiOutlineYoutube
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}

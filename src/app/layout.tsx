@@ -7,6 +7,7 @@ import Head from "next/head";
 
 export const metadata = {
   title: "Alicia Pak",
+
   description: "Portfolio",
 };
 
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}

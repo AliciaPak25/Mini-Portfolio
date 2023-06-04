@@ -5,28 +5,41 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Coffee App",
     description:
-      "Thankful Thoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "Coffee App is a landing page that shows coffee made entirely only with HTML and CSS.",
     image: "/computer.jpg",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io",
+    github: "#",
+    link: "#",
   },
   {
-    name: "PlatoIO",
+    name: "Tesla Clone",
     description:
-      "Plato IO is a to do list app that built using the PERN stack.",
+      "Tesla Clone is a replica of Tesla's landing page that built using HTML, CSS, JavaScript and Tailwind.css.",
     image: "/develper-female-3d.avif",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "#",
+    link: "#",
   },
   {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
+    name: "MyTinerary",
+    description: "MyTinerary is an itinerary website made in MindHub Bootcamp.",
     image: "/female-3d-computer.avif",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "#",
+    link: "#",
+  },
+  {
+    name: "Personal Finances App",
+    description: "This is a challenge made to enter Alkemy training.",
+    image: "/female-3d-computer.avif",
+    github: "#",
+    link: "#",
+  },
+  {
+    name: "MyWritings",
+    description: "This is a page where I show my writings.",
+    image: "/female-3d-computer.avif",
+    github: "#",
+    link: "#",
   },
 ];
 

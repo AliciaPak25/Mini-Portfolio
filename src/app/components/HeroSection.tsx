@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
 
 const HeroSection = () => {
@@ -23,22 +23,34 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Full Stack Developer
+              Front-End Developer
             </span>{" "}
-            based in Villa Mercedes, San Luis, Argentina. Working towards
-            creating software that makes life easier and more meaningful.
+            based in Villa Mercedes, San Luis, Argentina with passion for
+            learning web development and the latest industry trends of it.
           </p>
           <Link
-            href="/projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            to="projects"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
           >
             Projects
           </Link>
         </div>
       </div>
       <div className="flex flex-row justify-center">
-        <Link href="/about">
-          <HiArrowDown size={35} className="animate-bounce" />
+        <Link
+          to="about"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
         </Link>
       </div>
     </section>

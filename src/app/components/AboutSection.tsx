@@ -4,13 +4,15 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "Python" },
+  { skill: "MongoDB" },
+  { skill: "Express.js" },
   { skill: "React" },
+  { skill: "Node.js" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "React Native" },
 ];
 
 const AboutSection = () => {
@@ -27,24 +29,22 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Alicia and I am a
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hi, my name is Alicia and I am a{" "}
+              <span className="font-bold">{"highly ambitious"}</span>, and
+              <span className="font-bold">{" self motivated"}</span> Front-End
+              Developer based in Villa Mercedes, San Luis Argentina.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I first studied Full Stack Develpment at MindHub in 2022 and I had
+              the opportunity to work in a start-up called StarAppX.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making Youtube videos.
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              From reading, going to the gym to studying English. I am always
+              seeking new experiences and love to keep myself engaged and
+              learning new things.
             </p>
             <br />
             <p>
